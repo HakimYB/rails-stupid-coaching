@@ -1,0 +1,13 @@
+<h1 class="margin">Stupid Coaching</h1>
+
+<div class= "container question margin">
+<p><%= params['answer'] %></p>
+<p>-You</p>
+</div>
+
+<div class="container answer margin">
+<p><%= @answer %></p>
+<p>- Your coach</p>
+</div>
+
+<p class="btn" ><%= link_to "Ask another question!", ask_path %></p>
